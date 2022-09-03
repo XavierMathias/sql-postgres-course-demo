@@ -5,7 +5,8 @@ create table person (
 	email VARCHAR(150),
 	gender VARCHAR(7) NOT NULL,
 	date_of_birth DATE NOT NULL,
-	country_of_birth VARCHAR(50) NOT NULL
+	country_of_birth VARCHAR(50) NOT NULL,
+	car_id BIGINT
 );
 insert into person (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values ('Fernanda', 'Wetherald', 'hello0@domainmarket.com', 'Lol', '2022-05-11', 'China');
 insert into person (first_name, last_name, email, gender, date_of_birth, country_of_birth) values ('Jedd', 'Sawdy', 'jsawdy1@etsy.com', 'Male', '2022-07-17', 'China');
